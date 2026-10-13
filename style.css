@@ -284,3 +284,22 @@ h1 {
     font-size: 60px;
   }
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding-top: 40px;
+  }
+
+  .weather-card {
+    padding: 20px;
+  }
+
+  .weather-icon {
+    margin-right: 0;
+    font-size: 60px;
+  }
+
+  .weather-top h2 {
+    font-size: 24px;
+  }
+}
